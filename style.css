@@ -1,0 +1,171 @@
+/* navbar */
+body {
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navbar a:hover {
+    color: #ddd;
+}
+
+.navbar .dropdown-menu {
+    background-color: #333;
+}
+
+
+.navbar .dropdown-menu a {
+    color: #fff;
+}
+
+.navbar .dropdown-menu a:hover {
+    background-color: #444;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-img-top {
+    border-radius: 15px 15px 0 0;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-bottom: 5px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons a,
+.buttons button {
+    margin-top: 5px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row-cols-lg-3,
+.row-cols-md-3,
+.row-cols-sm-2,
+.row-cols-xs-1 {
+    margin-bottom: 20px;
+}
+
+.navi {
+    background-color: #333;
+}
+
+
+/* footer */
+
+.bg-dark {
+    background-color: #343a40;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    animation: fadeInDown 1s;
+}
+
+.text-light {
+    color: #ffffff;
+}
+
+.footer {
+    background-color: #212529;
+    padding: 10px;
+    text-align: center;
+    animation: fadeInUp 1s;
+}
+
+.footer p {
+    margin: 0;
+    color: #f8f9fa;
+}
+
+.github-link {
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+.github-link:hover {
+    color: #007bff;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.smiley {
+    display: inline-block;
+    animation: bounce 2s infinite;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
